@@ -9,6 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
 </head>
 <body>
+  <style>
+    .card{
+      margin: 0 auto;
+    }
+  </style>
     <!--Se establece el container del nav-->
     <div class="container-fluid" style="background-color: #b327ac">
       <!--Empieza el navbar-->
@@ -24,7 +29,6 @@
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             <a class="nav-link" href="#">Sobre mí</a>
             <a class="nav-link" href="#">Proyectos</a>
-            <a class="nav-link" href="#">Pp</a>
             <a class="nav-link" href="#">Contactame</a>
           </div>
         </div>
@@ -64,48 +68,94 @@
         </button>
       </div>
       </div><!--Se termina el contenedor del carrusel-->
-      <div class="container p-5"><!--Empieza el contenedor de cards-->
-      <div class="row">
-        <div class="col-sm-12	col-md-6	col-lg-6	col-xl-4	col-xxl-4">
-          <div class="card p-4" style="width:20rem; height: 22rem;">
-            <img src="https://businemetrics.files.wordpress.com/2018/08/gestic3b3n-de-proyectos.jpg" class="card-img-top" alt="...">
+      <div class="container p-5">
+        <div class="row justify-content-center mt-5">
+        <!--Se define el responsivo de la tarjeta-->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+          <!--Empieza la clase de la tarjeta-->
+            <div class="card ho p-2 mt-4" data-aos="flip-left" style="width: 18rem;">
+              <img src="." class="card-img-top rounded-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Proyecto Adicional</h5>
-              <p class="card-text">Se agrega proyecto adiconal.</p>
+              <h5 class="card-title fw-bolder text-center">Proyecto</h5>
+              <p class="card-text text-center">Proyecto</p>
+              <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  Sobre mí
+                </button>
+                </div>
+                <hr>
+                <!--Iconos de Linkdin y GitHub-->
+                <div class="d-flex justify-content-center">
+                  <a href="https://github.com/DanteContreras93"><i class="bi bi-github m-2" style="font-size: 3vh;"></i></a>
+                  <a href="https://www.linkedin.com/in/dante-contreras-82bb54162/"><i class="bi bi-linkedin" style="font-size: 3vh;"></i></a>
+                </div>
+              </div>
+            <!--Termina la clase de la tarjeta-->
             </div>
+          <!--Se termina el responsivo de la tarjeta-->
           </div>
-        </div>
-        <div class="col-sm-12	col-md-6	col-lg-6	col-xl-4	col-xxl-4">
-          <div class="card p-4" style="width:20rem; height: 22rem;">
-            <img src="https://businemetrics.files.wordpress.com/2018/08/gestic3b3n-de-proyectos.jpg" class="card-img-top" alt="...">
+          <!--Se define el responsivo de la tarjeta-->
+          <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <!--Empieza la clase de la tarjeta-->
+            <div class="card ho p-2 mt-4" data-aos="flip-left" style="width: 18rem;">
+              <img src="." class="card-img-top rounded-3" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Proyecto Adicional</h5>
-              <p class="card-text">Se agrega proyecto adiconal.</p>
+              <h5 class="card-title fw-bolder text-center">Proyecto</h5>
+                <p class="card-text text-center">Proyecto</p>
+                <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#emmanuel">
+                  Sobre mí
+                </button>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-center">
+                  <!--Iconos de Linkdin y GitHub-->
+                    <a href="https://github.com/eminajas"><i class="bi bi-github m-2" style="font-size: 3vh;"></i></a>
+                    <a href="https://www.linkedin.com/in/eminajas/"><i class="bi bi-linkedin" style="font-size: 3vh;"></i></a>
+                  </div>
+              </div>
+              <!--Termina la clase de la tarjeta-->
             </div>
-          </div>
-        </div>
-        <div class="col-sm-12	col-md-6	col-lg-6	col-xl-4	col-xxl-4">
-          <div class="card p-4" style="width:20rem; height: 22rem;">
-            <img src="https://businemetrics.files.wordpress.com/2018/08/gestic3b3n-de-proyectos.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Proyecto Adicional</h5>
-              <p class="card-text">Se agrega proyecto adiconal.</p>
+            <!--Se termina el responsivo de la tarjeta-->
             </div>
-          </div>
-        </div>
-      </div><!--Terminan las tarjetas-->
-      </div>
+            <!--Se define el responsivo de la tarjeta-->
+            <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4">
+            <!--Empieza la clase de la tarjeta-->
+            <div class="card ho p-2 mt-4"  data-aos="flip-left" style="width: 18rem;">
+              <img src="." class="card-img-top rounded-3" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bolder text-center">Proyecto</h5>
+                <p class="card-text text-center">Proyecto</p>
+                <div class="d-flex justify-content-center">
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#esdras">
+                  Sobre mí
+                </button>
+                </div>
+                <hr>
+                <div class="d-flex justify-content-center">
+                  <!--Iconos de Linkdin y GitHub-->
+                    <a href="https://github.com/Esdras-Lopez"><i class="bi bi-github m-2" style="font-size: 3vh;"></i></a>
+                    <a href="https://www.linkedin.com/in/esdras-lopez-palacios07/"><i class="bi bi-linkedin" style="font-size: 3vh;"></i></a>
+                  </div>
+              </div>
+              <!--Termina la clase de la tarjeta-->
+            </div>
+            <!--Se termina el responsivo de la tarjeta-->
+            </div>
+            <!--Se termina el responsivo de la tarjeta-->
+            </div>
+            </div>
       <div class="container">
       <hr><!--Inicio de datos de contacto-->
       <form>
         <h2 class="fs-3 text-center">Datos de contacto</h2>
         <div class="mb-3">
           <label for="exampleInputEmail1" class="form-label">Email address</label>
-          <input type="email" class="form-control" style="background-color:#ff85ff;" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <input type="email" class="form-control" style="background-color:#f0eaf0; border-color: #b327ac;" id="exampleInputEmail1" aria-describedby="emailHelp">
         </div>
         <div class="mb-3">
           <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input type="password" class="form-control" style="background-color:#ff85ff;" id="exampleInputPassword1">
+          <input type="password" class="form-control" style="background-color:#f0eaf0; border-color: #b327ac;" id="exampleInputPassword1">
         </div>
         <div class="mb-3 form-check">
           <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -115,7 +165,7 @@
       </form><!--Fin de datos de contacto-->
       </div>
       <!--Inicio de Footer-->
-      <div class="container-fluid">
+      
       <footer class="d-flex flex-wrap justify-content-between align-items-center p-3 border-top" style="background-color:#e9c0e9;">
         <div class="col-md-4 d-flex align-items-center">
           <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
@@ -124,7 +174,7 @@
           <span class="mb-3 mb-md-0 text-muted">&copy; 2022 Company, Inc</span>
         </div>
       </footer><!--Fin del footer-->
-      </div>
+      
       
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
